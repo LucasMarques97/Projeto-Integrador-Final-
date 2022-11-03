@@ -1,6 +1,6 @@
 import { Categoria } from "../../categoria/entities/categoria.entity";
 import { Usuario } from "../../usuario/entities/usuario.entity";
-import { Column, Entity, PrimaryGeneratedColumn, UpdateDateColumn, ManyToOne } from "typeorm"
+import { Column, Entity, PrimaryGeneratedColumn, UpdateDateColumn, ManyToOne } from "typeorm";
 import { ApiProperty } from "@nestjs/swagger";
 
 @Entity({name: "tb_produtos"})
